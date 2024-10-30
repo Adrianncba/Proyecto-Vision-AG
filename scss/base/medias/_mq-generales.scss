@@ -1,0 +1,22 @@
+// Mediaquieries generales para tablet
+@media screen and (min-width:600px){
+header{
+    .contenedor-navbar-mobile{
+        display: none;
+    }
+    .contenedor-navbar-tabletdestokp{
+        @include flex-center;
+        justify-content: space-around;
+        ul{
+            @include flex-center;
+            li{
+             
+                @include enlaces;
+                color: whitesmoke;
+                border-radius: 2rem;            }
+        }
+    }
+}
+
+}
+

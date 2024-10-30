@@ -1,0 +1,10 @@
+// Linkeo de variables
+@import "utilidades/variables";
+
+// Linkeo de estilos SASS 
+@import "base/generales";
+@import "base/home";
+
+//Linkeo de mediaqueries
+@import "base/medias/mq-generales";
+

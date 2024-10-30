@@ -1,0 +1,30 @@
+// Tableta de colores
+$color-gris: #444444;
+
+
+//Mixing
+@mixin flex-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@mixin enlaces{
+    @include flex-center;
+    border-radius: 2rem;
+    a{
+    @include flex-center;
+    text-transform: uppercase;
+    color: whitesmoke;
+    opacity: 0.4;
+    padding: 1rem;
+    text-decoration: none;
+    }
+    :hover{
+        background-color: $color-gris;
+        opacity: 1;
+        color: whitesmoke;
+        border-radius: 2rem;
+    }
+
+}
+

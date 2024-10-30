@@ -1,0 +1,70 @@
+// Reset general
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{ 
+    header{
+        background-image: linear-gradient( 
+        rgba(0,0,0,0.7),
+        rgba(0,0,0,0.7)),
+        url(../../assets/img/bg-header-general2.jfif);
+    background-position: center ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100%;
+    overflow-x: hidden;
+    }
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    background-color: black;
+    
+}
+
+
+//Configuracion de logo
+.logo-proyecto{
+    width: 4rem;
+}
+
+//Configuracion Nabvar Mobile
+header{
+    .contenedor-navbar-tabletdestokp{
+    display: none;
+}
+    .contenedor-navbar-mobile{
+        nav{
+         div{
+            div{
+                ul{
+                    li{
+                        @include enlaces;
+
+                        a{
+                            text-align: center;
+                            @include enlaces;
+                        }
+                    }
+                }
+            }
+
+         }   
+        }
+
+    }
+
+    .titulo-header{
+    text-transform: uppercase;
+    text-align: center;
+    color: whitesmoke;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:  5rem 1rem;    
+}
+
+}
