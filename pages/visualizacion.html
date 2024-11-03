@@ -21,7 +21,7 @@
             <nav class="navbar navbar-expand-lg ">
                 <div class="container-fluid">
                   <a class="navbar-brand" href="#">
-                    <img class="logo-proyecto" src="../assets/img/logo-proyecto.png" alt="">
+                    <img class="logo-proyecto" src="../img/logo-proyecto.png" alt="">
                   </a>
                   <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -45,12 +45,13 @@
                   </div>
                 </div>
               </nav>
+              
         </div>
 
         <!-- Contenedor Navbar Tablet/Destokp -->
         <div class="contenedor-navbar-tabletdestokp">
             <div class="contenido-navbar-tablet">
-              <img class="logo-proyecto" src="../assets/img/logo-proyecto.png" alt="">
+              <img class="logo-proyecto" src="../img/logo-proyecto.png" alt="">
             </div>
             <div class="enlaces-nabvar">
               <ul>
@@ -64,6 +65,7 @@
           </div>
           <div class="titulo-header">
             <H1>¡Vamos a visualizar lo que mas desees!</H1>
+            
           </div>
 
             
@@ -72,12 +74,81 @@
 
      </header>
      <!-- MAIN -->
-      <main>
+     <main>
+      <div class="contenedor-main-visualizacion estilos-main">
+              
+        <h2> <img src="../img/gif-h2-main2.gif" alt=""> ¿Que es la visualizacion? <img src="../img/gif-h2-main2.gif" alt=""> </h2>
+        <p>La visualización en la ley de atracción es una herramienta poderosa que nos permite materializar nuestros deseos. Al imaginar con claridad lo que queremos, generamos una energía positiva que atrae experiencias y oportunidades afines. Esta práctica diaria fortalece nuestra mentalidad y nos conecta con nuestras metas, haciendo que el cambio sea posible.</p>
+        <div class="musica-visualizacion">
+          <h3>
+            Pondremos un poco de musica para que puedas hacer una buena visualizacion
+          </h3>
+          <iframe src="https://www.youtube.com/embed/xvxTt48kSxs" title="FRECUENCIA 528 Hz • Manifiesta todo lo que desees • Música para elevar tu Energía y Vibración" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+         </div>
+         <!-- CARRUSEL NUMERO 1 -->
+         <div class="carrusel-visualizacion">
+          <div id="carouselExampleFade" class="carousel slide carousel-fade">
+            <div class="carousel-inner text-align">
+              <div class="carousel-item active">
+                <img src="../img/carrusel-proyeccion-1.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="../img/carrusel-proyeccion-empresa-1.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="../img/carrusel-proyeccion-empresa-3.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item ">
+                <img src="../img/carrusel-proyeccion-mansion-1.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item ">
+                <img src="../img/carrusel-proyeccion-mansion-3.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item ">
+                <img src="../img/carrusel-proyeccion-mansion-4.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item ">
+                <img src="../img/carrusel-proyeccion-2-audi.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item ">
+                <img src="../img/carrusel-proyeccion-3-audi.jpg" class="d-block w-100" alt="...">
+              </div>
+         
+
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+               
+         
+          <form id="gratitudeForm">
+            <input type="text" id="gratitude" name="gratitude" placeholder="Estoy agradecido por..." required>
+    
+            <button type="submit">Enviar</button>
+           </form>
+        </div>
+        <!-- CARRUSEL NUMERO 2  -->
+
+        <!-- CARRUSEL NUMERO 3 -->
+
+        
+        
+        
+        
+        </div>
+       
+
+      </div>
 
 
 
-
-      </main>
+    </main>
       <!-- FOOTER  -->
       <footer>
 
@@ -94,7 +165,13 @@
 
 
 
-
+      <script>
+        document.getElementById("gratitudeForm").addEventListener("submit", function(event) {
+            event.preventDefault(); // Previene el envío del formulario para evitar scroll
+            alert("Tu mensaje ha sido enviado al universo :" + document.getElementById("gratitude").value);
+            document.getElementById("gratitude").value = ""; // Limpia el campo después del envío
+        });
+    </script>
     <!-- Linkeo de script de BT -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>

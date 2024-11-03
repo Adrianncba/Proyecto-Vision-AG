@@ -4,8 +4,15 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-
+    
 }
+body{
+   font-family: "Nunito", serif;
+   font-optical-sizing: auto;
+   font-style: normal;
+   background-color: black;
+}
+
 header{  
     background-image: linear-gradient( 
         rgba(0,0,0,0.7),
@@ -16,7 +23,12 @@ header{
     background-size: cover;
     min-height: 100%;
     overflow-x: hidden;
-   
+ }
+// Estilos generales de todos los MAIN 
+main{
+    .estilos-main{
+        @include estilos-main;
+    }
 }
 
 //Configuracion de logo
@@ -35,11 +47,9 @@ header{
             div{
                 ul{
                     li{
-                      
-
+                        @include enlacesss;
                         a{
-                            text-align: center;
-                          
+                           
                         }
                     }
                 }
