@@ -11,7 +11,7 @@ body{
         background-image: linear-gradient( 
         rgba(0,0,0,0.7),
         rgba(0,0,0,0.7)),
-        url(../../assets/img/bg-header-general2.jpg);
+        url(./../../img/bg-header-general2.jpg);
     background-position: center ;
     background-repeat: no-repeat;
     background-size: cover;
@@ -43,7 +43,6 @@ header{
                 ul{
                     li{
                         @include enlaces;
-
                         a{
                             text-align: center;
                             @include enlaces;
