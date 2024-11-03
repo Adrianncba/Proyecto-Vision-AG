@@ -68,5 +68,8 @@ header .titulo-header {
     border-radius: 2rem;
   }
 }
+main {
+  background-image: url(/img/bg-header-general.jpg);
+}
 
 /*# sourceMappingURL=main.css.map */
