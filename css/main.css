@@ -11,7 +11,7 @@ body {
   background-color: black;
 }
 body header {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(./../../img/bg-header-general2.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(./../img/bg-header-general2.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -26,50 +26,8 @@ body header {
 header .contenedor-navbar-tabletdestokp {
   display: none;
 }
-header .contenedor-navbar-mobile nav div div ul li {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 2rem;
-}
-header .contenedor-navbar-mobile nav div div ul li a {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-transform: uppercase;
-  color: whitesmoke;
-  opacity: 0.4;
-  padding: 1rem;
-  text-decoration: none;
-}
-header .contenedor-navbar-mobile nav div div ul li :hover {
-  background-color: #444444;
-  opacity: 1;
-  color: whitesmoke;
-  border-radius: 2rem;
-}
 header .contenedor-navbar-mobile nav div div ul li a {
   text-align: center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 2rem;
-}
-header .contenedor-navbar-mobile nav div div ul li a a {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-transform: uppercase;
-  color: whitesmoke;
-  opacity: 0.4;
-  padding: 1rem;
-  text-decoration: none;
-}
-header .contenedor-navbar-mobile nav div div ul li a :hover {
-  background-color: #444444;
-  opacity: 1;
-  color: whitesmoke;
-  border-radius: 2rem;
 }
 header .titulo-header {
   text-transform: uppercase;
